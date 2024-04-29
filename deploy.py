@@ -2,7 +2,7 @@ import mlflow.sagemaker
 from mlflow.deployments import get_deploy_client
 
 endpoint_name="prod:endpoint"
-model_uri="s3://mlflow-project-artifacts/4/d2ad59e0241c4f6f9212ff7e22ca780a/artifacts/XGBRegressor"
+model_uri="s3://mlops-mlflow-project-artifacts/1/75febeca22f94353a72b1efc740abb6e/artifacts/ElasticNet"
 
 # Define your configuration parameters as a dictionary
 config = {
