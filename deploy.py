@@ -1,7 +1,7 @@
 import mlflow.sagemaker
 from mlflow.deployments import get_deploy_client
 
-endpoint_name="prod:endpoint"
+endpoint_name="prod-endpoint-elastic-net"
 model_uri="s3://mlops-mlflow-project-artifacts/1/75febeca22f94353a72b1efc740abb6e/artifacts/ElasticNet"
 
 # Define your configuration parameters as a dictionary
